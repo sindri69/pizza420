@@ -1,0 +1,4 @@
+Integer: 1
+Real number: 1.1
+String: fyrsti
+Character: f
