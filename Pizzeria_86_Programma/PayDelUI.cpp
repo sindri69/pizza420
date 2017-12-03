@@ -1,26 +1,30 @@
 #include <iostream>
 #include <fstream>
 #include "MainUI.h"
-#include "OrderUI.h"
+#include "PayDelUI.h"
 using namespace std;
 
-OrderUI::OrderUI()
+
+
+PayDelUI::PayDelUI()
 {
     //ctor
 }
 
-OrderUI::~OrderUI()
+PayDelUI::~PayDelUI()
 {
     //dtor
 }
 
-void OrderUI::start_orderUI() {
+void PayDelUI::start_paydelUI() {
+
+    /* Eins og er gerir þetta UI ekkert, getur bara hoppað til baka í mainUI */
 
     char selection = '\0';
 
     while (selection != 'q') {
 
-        cout << "Pizzeria_86_Programma (Orders)" << endl;
+        cout << "Pizzeria_86_Programma (Payments & Delivery)" << endl;
         cout << "1: Nothing" << endl;
         cout << "2: Return to Main" << endl;
 
