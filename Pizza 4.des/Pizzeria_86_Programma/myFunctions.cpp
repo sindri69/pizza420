@@ -1,5 +1,6 @@
 #include "myFunctions.h"
 #include "readFunctions.h"
+#include "readFunctions.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -261,4 +262,62 @@ int myFunctions::convert_stringToInteger(string s) { /* Convert string to Intege
     if ( !(convert >> result) )  /* give value to result using characters in the string */
         result = 0;              /* if that fails set result to 0 */
     return result;               /* return result */ /* http://www.cplusplus.com/forum/articles/9645/ */
+}
+
+
+bool myFunctions::namesake_Typeslist(string newType){
+    readFunctions f;
+    string oldType = "";
+    int numoflines;
+    numoflines = f.get_NumberOfLines_TypesList();
+
+    for (int i=0; i < numoflines; i++) {
+        oldType = f.get_Line_TypesList(i);
+        if (newType == oldType) {
+            return true;
+        }
+    }
+    return false;
+}
+bool myFunctions:: namesake_Topping(string newType) {
+    readFunctions f;
+    string oldType = "";
+    int numoflines;
+    numoflines = f.get_NumberOfLines_ToppingsList();
+
+    for (int i=0; i < numoflines; i++) {
+        oldType = f.get_Line_ToppingsList(i);
+        if (newType == oldType) {
+            return true;
+        }
+    }
+    return false;
+}
+bool myFunctions:: namesake_Drinks(string newType) {
+    readFunctions f;
+    string oldType = "";
+    int numoflines;
+    numoflines = f.get_NumberOfLines_DrinksList();
+
+    for (int i=0; i < numoflines; i++) {
+        oldType = f.get_Line_DrinksList(i);
+        if (newType == oldType) {
+            return true;
+        }
+    }
+    return false;
+}
+bool myFunctions:: namesake_Extra(string newType) {
+    readFunctions f;
+    string oldType = "";
+    int numoflines;
+    numoflines = f.get_NumberOfLines_ExtrasList();
+
+    for (int i=0; i < numoflines; i++) {
+        oldType = f.get_Line_ExtrasList(i);
+        if (newType == oldType) {
+            return true;
+        }
+    }
+    return false;
 }

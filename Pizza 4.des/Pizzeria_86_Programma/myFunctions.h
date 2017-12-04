@@ -24,6 +24,13 @@ class myFunctions /* Here I'll put various functions that'll make the other clas
         double convert_stringToDouble(string s);
         int convert_stringToInteger(string s);
 
+        /* Makes sure there aren't 2 types of toppings,drinks or extras with the same name */
+        /* returns true if they have the same name */
+        bool namesake_Typeslist(string newType);
+        bool namesake_Topping(string newType);
+        bool namesake_Drinks(string newType);
+        bool namesake_Extra(string newType);
+
     protected:
 
     private:

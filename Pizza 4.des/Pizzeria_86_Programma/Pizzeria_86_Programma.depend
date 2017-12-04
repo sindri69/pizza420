@@ -242,3 +242,182 @@
 
 1512267446 c:\users\user\desktop\pizzeria_86_programma\adminpizzalistui.h
 
+1512352328 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\admindrinksui.cpp
+	"AdminDrinksUI.h"
+	"Drinks.h"
+	"readFunctions.h"
+	"myFunctions.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512215313 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\admindrinksui.h
+
+1512267894 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\drinks.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512341101 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\readfunctions.h
+	<string>
+
+1512398045 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\myfunctions.h
+	<string>
+
+1512352328 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\adminextrasui.cpp
+	"AdminExtrasUI.h"
+	"Extras.h"
+	"readFunctions.h"
+	"myFunctions.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512267438 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\adminextrasui.h
+
+1512267921 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\extras.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512350099 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\adminpizzalistui.cpp
+	"AdminPizzaListUI.h"
+	"readFunctions.h"
+	"myFunctions.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512267446 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\adminpizzalistui.h
+
+1512351897 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\admintoppingsui.cpp
+	"AdminToppingsUI.h"
+	"Toppings.h"
+	"readFunctions.h"
+	"myFunctions.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512267453 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\admintoppingsui.h
+
+1512268495 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\toppings.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512351281 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\admintypesui.cpp
+	"AdminTypesUI.h"
+	"Types.h"
+	"myFunctions.h"
+	"readFunctions.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512267459 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\admintypesui.h
+
+1512268537 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\types.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512221562 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\adminui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"AdminUI.h"
+	"AdminPizzaListUI.h"
+	"AdminTypesUI.h"
+	"AdminToppingsUI.h"
+	"AdminDrinksUI.h"
+	"adminExtrasUI.h"
+
+1512267934 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\mainui.h
+
+1512267466 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\adminui.h
+
+1512060079 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\bakingui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"BakingUI.h"
+
+1512267525 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\bakingui.h
+
+1512216163 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\drinks.cpp
+	"Drinks.h"
+
+1512217567 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\extras.cpp
+	"Extras.h"
+
+1512398388 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\main.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"myFunctions.h"
+	"readFunctions.h"
+
+1512060010 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\mainui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"AdminUI.h"
+	"OrderUI.h"
+	"BakingUI.h"
+	"PayDelUI.h"
+
+1512268076 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\orderui.h
+
+1512268083 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\paydelui.h
+
+1512329127 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\orderui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"OrderUI.h"
+	"Pizza.h"
+	"myFunctions.h"
+	"readFunctions.h"
+
+1512268302 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\pizza.h
+	<fstream>
+	<string>
+	<iostream>
+
+1512060095 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\paydelui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"PayDelUI.h"
+
+1512349527 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\pizza.cpp
+	"Pizza.h"
+	"myFunctions.h"
+	"readFunctions.h"
+
+1512342257 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\readfunctions.cpp
+	"readFunctions.h"
+	"Pizza.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1512216499 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\toppings.cpp
+	"Toppings.h"
+
+1512337905 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\types.cpp
+	"Types.h"
+	"readFunctions.h"
+	"myFunctions.h"
+
+1512398094 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\pizza 4.des\pizzeria_86_programma\myfunctions.cpp
+	"myFunctions.h"
+	"readFunctions.h"
+	"readFunctions.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
