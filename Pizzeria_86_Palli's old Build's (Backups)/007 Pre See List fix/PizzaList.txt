@@ -1,0 +1,24 @@
+Large
+Basic
+
+Water
+
+0
+0
+1
+Medium
+Custom
+Pepperoni
+Actual Coka Cola
+French Fries
+0
+0
+1
+Small
+Pepperoni Party
+
+Coka Cola Rip-off
+Bread-sticks
+0
+0
+1

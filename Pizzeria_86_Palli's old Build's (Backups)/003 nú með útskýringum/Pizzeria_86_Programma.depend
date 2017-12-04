@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1512059891 source:c:\users\user\desktop\pizzeria_86_programma\main.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+
+1511979005 c:\users\user\desktop\pizzeria_86_programma\mainui.h
+
+1512060010 source:c:\users\user\desktop\pizzeria_86_programma\mainui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"AdminUI.h"
+	"OrderUI.h"
+	"BakingUI.h"
+	"PayDelUI.h"
+
+1512060062 source:c:\users\user\desktop\pizzeria_86_programma\adminui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"AdminUI.h"
+
+1511979005 c:\users\user\desktop\pizzeria_86_programma\adminui.h
+
+1512060079 source:c:\users\user\desktop\pizzeria_86_programma\bakingui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"BakingUI.h"
+
+1511981814 c:\users\user\desktop\pizzeria_86_programma\bakingui.h
+
+1511981814 c:\users\user\desktop\pizzeria_86_programma\orderui.h
+
+1511981814 c:\users\user\desktop\pizzeria_86_programma\paydelui.h
+
+1512061654 source:c:\users\user\desktop\pizzeria_86_programma\orderui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"OrderUI.h"
+	"Pizza.h"
+
+1512060095 source:c:\users\user\desktop\pizzeria_86_programma\paydelui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"PayDelUI.h"
+
+1512063077 c:\users\user\desktop\pizzeria_86_programma\pizza.h
+	<fstream>
+	<string>
+	<iostream>
+
+1512063755 source:c:\users\user\desktop\pizzeria_86_programma\pizza.cpp
+	"Pizza.h"
+

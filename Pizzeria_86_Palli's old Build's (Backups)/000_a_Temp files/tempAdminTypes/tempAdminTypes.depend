@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512154115 source:c:\users\user\desktop\tempadmintypes\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512054349 source:c:\users\user\desktop\temppizzaclass\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1512144918 source:c:\users\user\desktop\pizzaclass01 size&type\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
