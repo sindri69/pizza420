@@ -17,9 +17,10 @@ class myFunctions /* Here I'll put various functions that'll make the other clas
         char getCorrectType();
         string getCorrectTopping();
 
-        /* Functions that take string and return number */
+        /* Functions that take string and return number */ /* Note to self: It's possible to convert num to string also */
         double convert_stringToDouble(string s);
         int convert_stringToInteger(string s);
+
 
     protected:
 

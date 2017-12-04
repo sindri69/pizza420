@@ -226,3 +226,163 @@
 
 1512221390 c:\users\user\desktop\pizzeria_86_programma\adminpizzalistui.h
 
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\admindrinksui.cpp
+	"AdminDrinksUI.h"
+	"Drinks.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\admindrinksui.h
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\drinks.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\adminextrasui.cpp
+	"AdminExtrasUI.h"
+	"Extras.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\adminextrasui.h
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\extras.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\adminpizzalistui.cpp
+	"AdminPizzaListUI.h"
+	"readFunctions.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\adminpizzalistui.h
+
+1512393878 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\readfunctions.h
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\admintoppingsui.cpp
+	"AdminToppingsUI.h"
+	"Toppings.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\admintoppingsui.h
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\toppings.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\admintypesui.cpp
+	"AdminTypesUI.h"
+	"Types.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\admintypesui.h
+
+1512393878 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\types.h
+	<iostream>
+	<fstream>
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\adminui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"AdminUI.h"
+	"AdminPizzaListUI.h"
+	"AdminTypesUI.h"
+	"AdminToppingsUI.h"
+	"AdminDrinksUI.h"
+	"adminExtrasUI.h"
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\mainui.h
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\adminui.h
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\bakingui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"BakingUI.h"
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\bakingui.h
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\drinks.cpp
+	"Drinks.h"
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\extras.cpp
+	"Extras.h"
+
+1512393878 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\main.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\mainui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"AdminUI.h"
+	"OrderUI.h"
+	"BakingUI.h"
+	"PayDelUI.h"
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\orderui.h
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\paydelui.h
+
+1512393878 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\myfunctions.cpp
+	"myFunctions.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1512394098 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\myfunctions.h
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\orderui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"OrderUI.h"
+	"Pizza.h"
+	"myFunctions.h"
+
+1512393877 c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\pizza.h
+	<fstream>
+	<string>
+	<iostream>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\paydelui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"PayDelUI.h"
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\pizza.cpp
+	"Pizza.h"
+	"myFunctions.h"
+
+1512393878 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\readfunctions.cpp
+	"readFunctions.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1512393877 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\toppings.cpp
+	"Toppings.h"
+
+1512393878 source:c:\users\pállsteinar\desktop\pizza420\pizzeria_86_programma\types.cpp
+	"Types.h"
+
