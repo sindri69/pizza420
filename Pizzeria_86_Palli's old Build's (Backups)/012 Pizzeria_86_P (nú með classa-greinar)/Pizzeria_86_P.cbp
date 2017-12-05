@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pizzeria_86_P" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pizzeria_86_P" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="includeUI" />
+					<Add directory="include" />
+					<Add directory="includeFunctions" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pizzeria_86_P" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="includeUI" />
+					<Add directory="include" />
+					<Add directory="includeFunctions" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="includeFunctions/MyFunctions.h" />
+		<Unit filename="includeFunctions/ReadFunctions.h" />
+		<Unit filename="includeUI/AdminDrinksUI.h" />
+		<Unit filename="includeUI/AdminExtrasUI.h" />
+		<Unit filename="includeUI/AdminPizzaUI.h" />
+		<Unit filename="includeUI/AdminToppingsUI.h" />
+		<Unit filename="includeUI/AdminTypesUI.h" />
+		<Unit filename="includeUI/AdminUI.h" />
+		<Unit filename="includeUI/BakingUI.h" />
+		<Unit filename="includeUI/MainUI.h" />
+		<Unit filename="includeUI/OrderUI.h" />
+		<Unit filename="includeUI/PayDeliverUI.h" />
+		<Unit filename="include/Drinks.h" />
+		<Unit filename="include/Extras.h" />
+		<Unit filename="include/Pizza.h" />
+		<Unit filename="include/Toppings.h" />
+		<Unit filename="include/Types.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="srcFunctions/MyFunctions.cpp" />
+		<Unit filename="srcFunctions/ReadFunctions.cpp" />
+		<Unit filename="srcUI/AdminDrinksUI.cpp" />
+		<Unit filename="srcUI/AdminExtrasUI.cpp" />
+		<Unit filename="srcUI/AdminPizzaUI.cpp" />
+		<Unit filename="srcUI/AdminToppingsUI.cpp" />
+		<Unit filename="srcUI/AdminTypesUI.cpp" />
+		<Unit filename="srcUI/AdminUI.cpp" />
+		<Unit filename="srcUI/BakingUI.cpp" />
+		<Unit filename="srcUI/MainUI.cpp" />
+		<Unit filename="srcUI/OrderUI.cpp" />
+		<Unit filename="srcUI/PayDeliverUI.cpp" />
+		<Unit filename="src/Drinks.cpp" />
+		<Unit filename="src/Extras.cpp" />
+		<Unit filename="src/Pizza.cpp" />
+		<Unit filename="src/Toppings.cpp" />
+		<Unit filename="src/Types.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
