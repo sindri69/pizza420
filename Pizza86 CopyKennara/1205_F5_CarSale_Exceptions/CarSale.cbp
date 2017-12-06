@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CarSale" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CarSale" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="Models" />
+					<Add directory="UI" />
+					<Add directory="Services" />
+					<Add directory="Repository" />
+					<Add directory="Exceptions" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CarSale" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="Models" />
+					<Add directory="UI" />
+					<Add directory="Services" />
+					<Add directory="Repository" />
+					<Add directory="Exceptions" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Exceptions/InvalidAgeOfCarException.cpp" />
+		<Unit filename="Exceptions/InvalidAgeOfCarException.h" />
+		<Unit filename="Exceptions/InvalidManufacturerException.cpp" />
+		<Unit filename="Exceptions/InvalidManufacturerException.h" />
+		<Unit filename="Models/Car.cpp" />
+		<Unit filename="Models/Car.h" />
+		<Unit filename="Models/Motorcycle.cpp" />
+		<Unit filename="Models/Motorcycle.h" />
+		<Unit filename="Repository/CarRepository.cpp" />
+		<Unit filename="Repository/CarRepository.h" />
+		<Unit filename="Services/CarService.cpp" />
+		<Unit filename="Services/CarService.h" />
+		<Unit filename="UI/StaffUI.cpp" />
+		<Unit filename="UI/StaffUI.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

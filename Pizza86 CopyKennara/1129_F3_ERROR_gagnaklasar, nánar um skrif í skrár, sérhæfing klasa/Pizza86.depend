@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1512487830 source:c:\users\user\desktop\pizza86 copykennara\pizza86_1127_f1_streams\main.cpp
+	<iostream>
+	<fstream>
+
+1512492093 source:c:\users\user\desktop\pizza86 copykennara\1128_f2_klasar í skrár og binary skrár\main.cpp
+	<iostream>
+	<fstream>
+
+1512494215 source:c:\users\user\desktop\pizza86 copykennara\1128_f2_klasar í skrár og binary skrár\2_binary version\main.cpp
+	<iostream>
+	<fstream>
+
+1512510273 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\main.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+
+1512499564 c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\mainui.h
+
+1512507983 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\mainui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"PizzaUI.h"
+
+1512510049 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizza.cpp
+	"Pizza.h"
+	"stddef.h"
+
+1512511581 c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizza.h
+	<iostream>
+	"topping.h"
+
+1512505233 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\topping.cpp
+	<string.h>
+	"Topping.h"
+
+1512503031 c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\topping.h
+	<iostream>
+
+1512502282 c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzaui.h
+
+1512508588 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzaui.cpp
+	"PizzaUI.h"
+	"PizzaRepository.h"
+	"Pizza.h"
+	<iostream>
+
+1512510830 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzarepository.cpp
+	"PizzaRepository.h"
+	"Pizza.h"
+	<fstream>
+
+1512510924 c:\users\user\desktop\pizza86 copykennara\1129_f3_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzarepository.h
+	"Pizza.h"
+
+1512510273 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\main.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+
+1512499564 c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\mainui.h
+
+1512507983 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\mainui.cpp
+	<iostream>
+	<fstream>
+	"MainUI.h"
+	"PizzaUI.h"
+
+1512502282 c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzaui.h
+
+1512508588 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzaui.cpp
+	"PizzaUI.h"
+	"PizzaRepository.h"
+	"Pizza.h"
+	<iostream>
+
+1512510924 c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizzarepository.h
+	"Pizza.h"
+
+1512511581 c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\pizza.h
+	<iostream>
+	"topping.h"
+
+1512503031 c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\topping.h
+	<iostream>
+
+1512505233 source:c:\users\user\desktop\pizza86 copykennara\1129_f3_error_gagnaklasar, nánar um skrif í skrár, sérhæfing klasa\topping.cpp
+	<string.h>
+	"Topping.h"
+

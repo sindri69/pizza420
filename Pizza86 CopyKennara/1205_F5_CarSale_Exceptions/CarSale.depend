@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1512517394 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\main.cpp
+	"StaffUI.h"
+
+1512515460 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\car.cpp
+	"Car.h"
+
+1512515501 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\car.h
+	<string>
+	<iostream>
+
+1512520232 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\ui\staffui.cpp
+	"StaffUI.h"
+
+1512520183 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\ui\staffui.h
+	"Car.h"
+	"CarService.h"
+
+1512521244 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\services\carservice.h
+	"Car.h"
+	"CarRepository.h"
+
+1512523230 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\services\carservice.cpp
+	"CarService.h"
+
+1512521847 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\repository\carrepository.cpp
+	"CarRepository.h"
+
+1512521847 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\repository\carrepository.h
+	"Car.h"
+	"CarRepository.h"
+	<fstream>
+
+1512522527 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\motorcycle.cpp
+	"Motorcycle.h"
+
+1512522525 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\motorcycle.h
+
+1512517394 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\main.cpp
+	"StaffUI.h"
+
+1512520183 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\ui\staffui.h
+	"Car.h"
+	"CarService.h"
+
+1512532664 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\models\car.h
+	<string>
+	<iostream>
+
+1512534120 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\services\carservice.h
+	"Car.h"
+	"CarRepository.h"
+	"InvalidManufacturerException.h"
+	"InvalidAgeOfCarException.h"
+
+1512521847 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\repository\carrepository.h
+	"Car.h"
+	"CarRepository.h"
+	<fstream>
+
+1512532602 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\models\car.cpp
+	"Car.h"
+
+1512522527 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\models\motorcycle.cpp
+	"Motorcycle.h"
+
+1512522525 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\models\motorcycle.h
+
+1512521847 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\repository\carrepository.cpp
+	"CarRepository.h"
+
+1512535569 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\services\carservice.cpp
+	"CarService.h"
+
+1512535798 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\ui\staffui.cpp
+	"StaffUI.h"
+	<cstdlib>
+
+1512531859 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\exceptions\invalidmanufacturerexception.cpp
+	"InvalidManufacturerException.h"
+
+1512531907 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\exceptions\invalidmanufacturerexception.h
+
+1512535023 c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\exceptions\invalidageofcarexception.h
+	<string>
+
+1512535048 source:c:\users\user\desktop\pizza86 copykennara\1205_f5_carsale_exceptions\exceptions\invalidageofcarexception.cpp
+	"InvalidAgeOfCarException.h"
+

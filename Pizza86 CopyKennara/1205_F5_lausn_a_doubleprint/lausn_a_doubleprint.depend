@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1512529877 source:c:\users\user\desktop\lausn_a_doubleprint\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1512517394 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\main.cpp
+	"StaffUI.h"
+
+1512515460 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\car.cpp
+	"Car.h"
+
+1512515501 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\car.h
+	<string>
+	<iostream>
+
+1512520232 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\ui\staffui.cpp
+	"StaffUI.h"
+
+1512520183 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\ui\staffui.h
+	"Car.h"
+	"CarService.h"
+
+1512521244 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\services\carservice.h
+	"Car.h"
+	"CarRepository.h"
+
+1512523230 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\services\carservice.cpp
+	"CarService.h"
+
+1512521847 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\repository\carrepository.cpp
+	"CarRepository.h"
+
+1512521847 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\repository\carrepository.h
+	"Car.h"
+	"CarRepository.h"
+	<fstream>
+
+1512522527 source:c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\motorcycle.cpp
+	"Motorcycle.h"
+
+1512522525 c:\users\user\desktop\pizza86 copykennara\1204_f4_carsale_layered architecture\models\motorcycle.h
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1512487830 source:c:\users\user\desktop\pizza86 copykennara\pizza86_1127_f1_streams\main.cpp
+	<iostream>
+	<fstream>
+
