@@ -6,9 +6,8 @@ class UI
 {
     public:
         UI();
-        virtual ~UI();
-
-    protected:
+        void main_menu();
+        int choice;
 
     private:
 };
