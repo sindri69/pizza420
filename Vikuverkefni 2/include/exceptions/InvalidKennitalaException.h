@@ -1,0 +1,7 @@
+#ifndef INVALIDKENNITALAEXCEPTION_H
+#define INVALIDKENNITALAEXCEPTION_H
+
+
+class InvalidKennitalaException {};
+
+#endif // INVALIDKENNITALAEXCEPTION_H

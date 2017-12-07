@@ -1,16 +1,32 @@
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
+#include <string>
+#include <iostream>
+
+using namespace std;
+
 
 class Employee
 {
     public:
-        Employee();
-        virtual ~Employee();
+        Employee(string name, string kennitala, double salary, int month, int year);
 
-    protected:
+        string get_name() const;
+        string get_kennitala() const;
+        double get_salary() const;
+        int get_month() const;
+        int get_year() const;
+
+        friend ostream& operator << (ostream& out, const Employee& employee);
+
 
     private:
+        string name;
+        string kennitala;
+        double salary;
+        int month;
+        int year;
 };
 
 #endif // EMPLOYEE_H

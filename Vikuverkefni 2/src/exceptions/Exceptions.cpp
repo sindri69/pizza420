@@ -5,7 +5,6 @@ Exceptions::Exceptions()
     //ctor
 }
 
-Exceptions::~Exceptions()
-{
-    //dtor
+void Exceptions::InvalidYearException(){
+if
 }

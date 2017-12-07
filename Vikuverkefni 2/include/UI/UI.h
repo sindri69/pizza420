@@ -1,5 +1,8 @@
 #ifndef UI_H
 #define UI_H
+#include "Employee.h"
+#include "EmployeeServices.h"
+
 
 
 class UI
@@ -7,9 +10,13 @@ class UI
     public:
         UI();
         void main_menu();
-        int choice;
+        char choice;
 
     private:
+        Employee create_employee();
+        EmployeeServices addemployee;
+
+
 };
 
 #endif // UI_H

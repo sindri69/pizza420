@@ -6,9 +6,6 @@ class Repositories
 {
     public:
         Repositories();
-        virtual ~Repositories();
-
-    protected:
 
     private:
 };

@@ -18,6 +18,9 @@
 					<Add directory="include/services" />
 					<Add directory="include/repositories" />
 					<Add directory="include/exceptions" />
+					<Add directory="include/repository" />
+					<Add directory="include/exceptions/InvalidSalaryException" />
+					<Add directory="include/exceptions/InvalidMonthException" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -32,6 +35,9 @@
 					<Add directory="include/services" />
 					<Add directory="include/repositories" />
 					<Add directory="include/exceptions" />
+					<Add directory="include/repository" />
+					<Add directory="include/exceptions/InvalidSalaryException" />
+					<Add directory="include/exceptions/InvalidMonthException" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -43,17 +49,25 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/UI/UI.h" />
-		<Unit filename="include/exceptions/Exceptions.h" />
+		<Unit filename="include/exceptions/InvalidKennitalaException.h" />
+		<Unit filename="include/exceptions/InvalidMonthException/InvalidMonthException.h" />
+		<Unit filename="include/exceptions/InvalidNameException.h" />
+		<Unit filename="include/exceptions/InvalidSalaryException/InvalidSalaryException.h" />
+		<Unit filename="include/exceptions/InvalidYearException.h" />
 		<Unit filename="include/models/Employee.h" />
-		<Unit filename="include/models/Models.h" />
-		<Unit filename="include/repositories/Repositories.h" />
+		<Unit filename="include/repository/EmployeeRepository.h" />
+		<Unit filename="include/services/EmployeeServices.h" />
 		<Unit filename="include/services/Services.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/UI/UI.cpp" />
-		<Unit filename="src/exceptions/Exceptions.cpp" />
+		<Unit filename="src/exceptionsInvalidSalaryException/InvalidSalaryException.cpp" />
+		<Unit filename="src/exceptions/InvalidKennitalaException.cpp" />
+		<Unit filename="src/exceptions/InvalidMonthException/InvalidMonthException.cpp" />
+		<Unit filename="src/exceptions/InvalidNameException.cpp" />
+		<Unit filename="src/exceptions/InvalidYearException.cpp" />
 		<Unit filename="src/models/Employee.cpp" />
-		<Unit filename="src/models/Models.cpp" />
-		<Unit filename="src/repositories/Repositories.cpp" />
+		<Unit filename="src/repository/EmployeeRepository.cpp" />
+		<Unit filename="src/services/EmployeeServices.cpp" />
 		<Unit filename="src/services/Services.cpp" />
 		<Extensions>
 			<code_completion />

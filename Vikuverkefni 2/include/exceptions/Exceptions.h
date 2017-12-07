@@ -5,10 +5,7 @@
 class Exceptions
 {
     public:
-        Exceptions();
-        virtual ~Exceptions();
 
-    protected:
 
     private:
 };

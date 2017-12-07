@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1512658460 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\main.cpp
+	<iostream>
+	"UI.h"
+
+1512656119 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\ui\ui.h
+	"Employee.h"
+	"EmployeeServices.h"
+
+1512656961 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\models\employee.h
+	<string>
+	<iostream>
+
+1512656671 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\services\employeeservices.h
+	"Employee.h"
+	"EmployeeRepository.h"
+	"InvalidNameException.h"
+	"InvalidKennitalaException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
+
+1512656119 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\repository\employeerepository.h
+	"Employee.h"
+	"EmployeeRepository.h"
+	<fstream>
+
+1512656577 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\exceptions\invalidnameexception.h
+
+1512656652 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\exceptions\invalidkennitalaexception.h
+
+1512656797 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\exceptions\invalidsalaryexception\invalidsalaryexception.h
+
+1512656847 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\exceptions\invalidmonthexception\invalidmonthexception.h
+
+1512656949 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\exceptions\invalidyearexception.h
+
+1512656652 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\exceptions\invalidkennitalaexception.cpp
+	"InvalidKennitalaException.h"
+
+1512656847 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\exceptions\invalidmonthexception\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512656579 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512656949 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512656797 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\exceptionsinvalidsalaryexception\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512654644 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\models\employee.cpp
+	"Employee.h"
+	<string>
+
+1512657077 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\repository\employeerepository.cpp
+	"EmployeeRepository.h"
+
+1512658409 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\services\employeeservices.cpp
+	"EmployeeServices.h"
+	"EmployeeRepository.h"
+
+1512653847 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\services\services.cpp
+	"Services.h"
+
+1512653843 c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\include\services\services.h
+
+1512659374 source:c:\users\david\desktop\dis_shit\3vikna2017\pizza420\vikuverkefni 2\src\ui\ui.cpp
+	"UI.h"
+

@@ -1,11 +1,17 @@
 #include <iostream>
-#include <UI.h>
+#include "UI.h"
+
+
 
 using namespace std;
 
 int main()
 {
-    UI::main_menu();
+UI ui;
+ui.main_menu();
+
+
+return 0;
 }
 
 

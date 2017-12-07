@@ -6,9 +6,6 @@ class Services
 {
     public:
         Services();
-        virtual ~Services();
-
-    protected:
 
     private:
 };
