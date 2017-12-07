@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="P86" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/P86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="UI" />
+					<Add directory="BASE" />
+					<Add directory="MAKE" />
+					<Add directory="REPO" />
+					<Add directory="EXC" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/P86" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="UI" />
+					<Add directory="BASE" />
+					<Add directory="MAKE" />
+					<Add directory="REPO" />
+					<Add directory="EXC" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BASE/Type.cpp" />
+		<Unit filename="BASE/Type.h" />
+		<Unit filename="EXC/InvalidTypeNameException.cpp" />
+		<Unit filename="EXC/InvalidTypeNameException.h" />
+		<Unit filename="EXC/InvalidTypePriceException.cpp" />
+		<Unit filename="EXC/InvalidTypePriceException.h" />
+		<Unit filename="MAKE/TypeMake.cpp" />
+		<Unit filename="MAKE/TypeMake.h" />
+		<Unit filename="REPO/TypeRepository.cpp" />
+		<Unit filename="REPO/TypeRepository.h" />
+		<Unit filename="UI/MainUI.cpp" />
+		<Unit filename="UI/MainUI.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

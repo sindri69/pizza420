@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1512605267 source:c:\users\user\desktop\p86\main.cpp
+	<iostream>
+	"MainUI.h"
+	"MyFunctions.h"
+
+1512608951 source:c:\users\user\desktop\p86\ui\mainui.cpp
+	"MainUI.h"
+	"ReadFunctions.h"
+	"MyFunctions.h"
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1512584742 c:\users\user\desktop\p86\ui\mainui.h
+	"Type.h"
+	"TypeMake.h"
+
+1512589763 source:c:\users\user\desktop\p86\base\type.cpp
+	"Type.h"
+
+1512581099 c:\users\user\desktop\p86\base\type.h
+	<string>
+	<iostream>
+
+1512593872 source:c:\users\user\desktop\p86\exc\invalidtypenameexception.cpp
+	"InvalidTypeNameException.h"
+
+1512593872 c:\users\user\desktop\p86\exc\invalidtypenameexception.h
+
+1512593778 source:c:\users\user\desktop\p86\exc\invalidtypepriceexception.cpp
+	"InvalidTypePriceException.h"
+
+1512593823 c:\users\user\desktop\p86\exc\invalidtypepriceexception.h
+
+1512606122 source:c:\users\user\desktop\p86\make\typemake.cpp
+	"TypeMake.h"
+	"ReadFunctions.h"
+
+1512582915 c:\users\user\desktop\p86\make\typemake.h
+	"Type.h"
+	"TypeRepository.h"
+	"InvalidTypeNameException.h"
+	"InvalidTypePriceException.h"
+
+1512582991 c:\users\user\desktop\p86\repo\typerepository.h
+	"Type.h"
+	"TypeRepository.h"
+	<fstream>
+
+1512582835 source:c:\users\user\desktop\p86\repo\typerepository.cpp
+	"TypeRepository.h"
+
+1512604574 source:c:\users\user\desktop\p86\fun\myfunctions.cpp
+	"MyFunctions.h"
+
+1512604548 c:\users\user\desktop\p86\fun\myfunctions.h
+	<string>
+	<iostream>
+	<sstream>
+
+1512608951 source:c:\users\user\desktop\p86\fun\readfunctions.cpp
+	"ReadFunctions.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1512608752 c:\users\user\desktop\p86\fun\readfunctions.h
+	<string>
+

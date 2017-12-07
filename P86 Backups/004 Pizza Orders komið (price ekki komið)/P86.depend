@@ -1,0 +1,133 @@
+# depslib dependency file v1.0
+1512605267 source:c:\users\user\desktop\p86\main.cpp
+	<iostream>
+	"MainUI.h"
+	"MyFunctions.h"
+
+1512627978 source:c:\users\user\desktop\p86\ui\mainui.cpp
+	"MainUI.h"
+	"ReadFunctions.h"
+	"MyFunctions.h"
+	<cstdlib>
+	<iostream>
+	<fstream>
+
+1512627661 c:\users\user\desktop\p86\ui\mainui.h
+	"Pizza.h"
+	"PizzaMake.h"
+	"Type.h"
+	"TypeMake.h"
+	"Topping.h"
+	"ToppingMake.h"
+
+1512589763 source:c:\users\user\desktop\p86\base\type.cpp
+	"Type.h"
+
+1512581099 c:\users\user\desktop\p86\base\type.h
+	<string>
+	<iostream>
+
+1512593872 source:c:\users\user\desktop\p86\exc\invalidtypenameexception.cpp
+	"InvalidTypeNameException.h"
+
+1512593872 c:\users\user\desktop\p86\exc\invalidtypenameexception.h
+
+1512593778 source:c:\users\user\desktop\p86\exc\invalidtypepriceexception.cpp
+	"InvalidTypePriceException.h"
+
+1512593823 c:\users\user\desktop\p86\exc\invalidtypepriceexception.h
+
+1512606122 source:c:\users\user\desktop\p86\make\typemake.cpp
+	"TypeMake.h"
+	"ReadFunctions.h"
+
+1512582915 c:\users\user\desktop\p86\make\typemake.h
+	"Type.h"
+	"TypeRepository.h"
+	"InvalidTypeNameException.h"
+	"InvalidTypePriceException.h"
+
+1512582991 c:\users\user\desktop\p86\repo\typerepository.h
+	"Type.h"
+	"TypeRepository.h"
+	<fstream>
+
+1512620065 source:c:\users\user\desktop\p86\repo\typerepository.cpp
+	"TypeRepository.h"
+
+1512628344 source:c:\users\user\desktop\p86\fun\myfunctions.cpp
+	"MyFunctions.h"
+	"ReadFunctions.h"
+
+1512625168 c:\users\user\desktop\p86\fun\myfunctions.h
+	<string>
+	<iostream>
+	<sstream>
+
+1512626733 source:c:\users\user\desktop\p86\fun\readfunctions.cpp
+	"ReadFunctions.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1512626733 c:\users\user\desktop\p86\fun\readfunctions.h
+	<string>
+
+1512615293 c:\users\user\desktop\p86\base\topping.h
+	<string>
+	<iostream>
+
+1512615293 source:c:\users\user\desktop\p86\base\topping.cpp
+	"Topping.h"
+
+1512615509 source:c:\users\user\desktop\p86\exc\invalidtoppingnameexception.cpp
+	"InvalidToppingNameException.h"
+
+1512615509 c:\users\user\desktop\p86\exc\invalidtoppingnameexception.h
+
+1512615509 source:c:\users\user\desktop\p86\exc\invalidtoppingpriceexception.cpp
+	"InvalidToppingPriceException.h"
+
+1512615509 c:\users\user\desktop\p86\exc\invalidtoppingpriceexception.h
+
+1512615945 c:\users\user\desktop\p86\make\toppingmake.h
+	"Topping.h"
+	"ToppingRepository.h"
+	"InvalidToppingNameException.h"
+	"InvalidToppingPriceException.h"
+
+1512616206 c:\users\user\desktop\p86\repo\toppingrepository.h
+	"Topping.h"
+	"ToppingRepository.h"
+	<fstream>
+
+1512615945 source:c:\users\user\desktop\p86\make\toppingmake.cpp
+	"ToppingMake.h"
+	"ReadFunctions.h"
+
+1512620122 source:c:\users\user\desktop\p86\repo\toppingrepository.cpp
+	"ToppingRepository.h"
+
+1512619127 c:\users\user\desktop\p86\base\pizza.h
+	<string>
+	<iostream>
+
+1512619354 source:c:\users\user\desktop\p86\base\pizza.cpp
+	"Pizza.h"
+
+1512619693 c:\users\user\desktop\p86\make\pizzamake.h
+	"Pizza.h"
+	"PizzaRepository.h"
+
+1512620065 c:\users\user\desktop\p86\repo\pizzarepository.h
+	"Pizza.h"
+	"PizzaRepository.h"
+	<fstream>
+
+1512619693 source:c:\users\user\desktop\p86\make\pizzamake.cpp
+	"PizzaMake.h"
+
+1512620065 source:c:\users\user\desktop\p86\repo\pizzarepository.cpp
+	"PizzaRepository.h"
+

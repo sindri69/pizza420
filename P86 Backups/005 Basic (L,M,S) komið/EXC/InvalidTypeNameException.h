@@ -1,0 +1,6 @@
+#ifndef INVALIDTYPENAMEEXCEPTION_H
+#define INVALIDTYPENAMEEXCEPTION_H
+
+class InvalidTypeNameException { };
+
+#endif // INVALIDTYPENAMEEXCEPTION_H
