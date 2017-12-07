@@ -1,0 +1,16 @@
+Pepperoni
+9
+8
+7
+Ananas
+10
+8
+6
+Piparostur
+5
+4
+3
+Swiss Cheece
+100
+75
+50

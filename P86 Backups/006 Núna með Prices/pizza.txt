@@ -1,0 +1,36 @@
+Large
+Basic
+
+15
+0
+1
+Medium
+The Ultima Delux
+
+750
+0
+1
+Small
+what
+
+6
+0
+1
+Large
+Custom
+Piparostur
+5
+0
+1
+Medium
+Custom
+Ananas
+8
+0
+1
+Small
+The Ananas Garden
+
+1
+0
+1

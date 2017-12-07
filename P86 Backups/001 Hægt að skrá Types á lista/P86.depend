@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1512577651 source:c:\users\user\desktop\p86\main.cpp
+	<iostream>
+	"MainUI.h"
+
+1512585161 source:c:\users\user\desktop\p86\ui\mainui.cpp
+	"MainUI.h"
+	<cstdlib>
+	<iostream>
+
+1512584742 c:\users\user\desktop\p86\ui\mainui.h
+	"Type.h"
+	"TypeMake.h"
+
+1512581034 source:c:\users\user\desktop\p86\base\type.cpp
+	"Type.h"
+
+1512581099 c:\users\user\desktop\p86\base\type.h
+	<string>
+	<iostream>
+
+1512582869 source:c:\users\user\desktop\p86\exc\invalidtypenameexception.cpp
+	"InvalidTypeNameException.h"
+
+1512582835 c:\users\user\desktop\p86\exc\invalidtypenameexception.h
+	<string>
+
+1512582873 source:c:\users\user\desktop\p86\exc\invalidtypepriceexception.cpp
+	"InvalidTypePriceException.h"
+
+1512582835 c:\users\user\desktop\p86\exc\invalidtypepriceexception.h
+	<string>
+
+1512582835 source:c:\users\user\desktop\p86\make\typemake.cpp
+	"TypeMake.h"
+
+1512582915 c:\users\user\desktop\p86\make\typemake.h
+	"Type.h"
+	"TypeRepository.h"
+	"InvalidTypeNameException.h"
+	"InvalidTypePriceException.h"
+
+1512582991 c:\users\user\desktop\p86\repo\typerepository.h
+	"Type.h"
+	"TypeRepository.h"
+	<fstream>
+
+1512582835 source:c:\users\user\desktop\p86\repo\typerepository.cpp
+	"TypeRepository.h"
+
