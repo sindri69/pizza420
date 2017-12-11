@@ -1,0 +1,180 @@
+# depslib dependency file v1.0
+1512846314 source:c:\users\user\desktop\pallapizza\main.cpp
+	"MainUI.h"
+
+1512846314 c:\users\user\desktop\pallapizza\ui\mainui.h
+	<cstdlib>
+	<iostream>
+
+1512868911 source:c:\users\user\desktop\pallapizza\ui\mainui.cpp
+	"MainUI.h"
+	"PizzaUI.h"
+	"TypeUI.h"
+
+1512847481 source:c:\users\user\desktop\pallapizza\base\basic.cpp
+	"Basic.h"
+
+1512847481 c:\users\user\desktop\pallapizza\base\basic.h
+	<iostream>
+
+1512848849 source:c:\users\user\desktop\pallapizza\except\invalidbasicpriceexception.cpp
+	"InvalidBasicPriceException.h"
+
+1512848849 c:\users\user\desktop\pallapizza\except\invalidbasicpriceexception.h
+
+1512847816 source:c:\users\user\desktop\pallapizza\make\basicmake.cpp
+	"BasicMake.h"
+
+1512847742 c:\users\user\desktop\pallapizza\make\basicmake.h
+	"Basic.h"
+	"BasicRepository.h"
+	"InvalidBasicPriceException.h"
+
+1512848028 c:\users\user\desktop\pallapizza\repo\basicrepository.h
+	"Basic.h"
+	"BasicRepository.h"
+	<fstream>
+
+1512848028 source:c:\users\user\desktop\pallapizza\repo\basicrepository.cpp
+	"BasicRepository.h"
+
+1512849469 source:c:\users\user\desktop\pallapizza\base\type.cpp
+	"Type.h"
+
+1512849469 c:\users\user\desktop\pallapizza\base\type.h
+	<string>
+	<iostream>
+
+1512849665 source:c:\users\user\desktop\pallapizza\except\invalidtypenameexception.cpp
+	"InvalidTypeNameException.h"
+
+1512849665 c:\users\user\desktop\pallapizza\except\invalidtypenameexception.h
+
+1512868989 source:c:\users\user\desktop\pallapizza\except\invalidtypepriceexception.cpp
+	"InvalidTypePriceException.h"
+
+1512868989 c:\users\user\desktop\pallapizza\except\invalidtypepriceexception.h
+
+1512869353 source:c:\users\user\desktop\pallapizza\make\typemake.cpp
+	"TypeMake.h"
+	"TypeRead.h"
+
+1512868711 c:\users\user\desktop\pallapizza\make\typemake.h
+	"Type.h"
+	"TypeRepository.h"
+	"InvalidTypeNameNoAlphaException.h"
+	"InvalidTypeNameAlreadyTakenException.h"
+	"InvalidTypePriceException.h"
+
+1512849895 c:\users\user\desktop\pallapizza\repo\typerepository.h
+	"Type.h"
+	"TypeRepository.h"
+	<fstream>
+
+1512849895 source:c:\users\user\desktop\pallapizza\repo\typerepository.cpp
+	"TypeRepository.h"
+
+1512851188 source:c:\users\user\desktop\pallapizza\base\topping.cpp
+	"Topping.h"
+
+1512851188 c:\users\user\desktop\pallapizza\base\topping.h
+	<string>
+	<iostream>
+
+1512851645 source:c:\users\user\desktop\pallapizza\except\invalidtoppingnameexception.cpp
+	"InvalidToppingNameException.h"
+
+1512851645 c:\users\user\desktop\pallapizza\except\invalidtoppingnameexception.h
+
+1512851674 source:c:\users\user\desktop\pallapizza\except\invalidtoppingpriceexception.cpp
+	"InvalidToppingPriceException.h"
+
+1512851674 c:\users\user\desktop\pallapizza\except\invalidtoppingpriceexception.h
+
+1512851500 source:c:\users\user\desktop\pallapizza\make\toppingmake.cpp
+	"ToppingMake.h"
+
+1512851500 c:\users\user\desktop\pallapizza\make\toppingmake.h
+	"Topping.h"
+	"ToppingRepository.h"
+	"InvalidToppingNameException.h"
+	"InvalidToppingPriceException.h"
+
+1512851602 c:\users\user\desktop\pallapizza\repo\toppingrepository.h
+	"Topping.h"
+	"ToppingRepository.h"
+	<fstream>
+
+1512851602 source:c:\users\user\desktop\pallapizza\repo\toppingrepository.cpp
+	"ToppingRepository.h"
+
+1512851829 c:\users\user\desktop\pallapizza\ui\pizzaui.h
+	"Basic.h"
+	"BasicMake.h"
+	<cstdlib>
+
+1512851900 c:\users\user\desktop\pallapizza\ui\typeui.h
+	"Type.h"
+	"TypeMake.h"
+	<cstdlib>
+	<iostream>
+
+1512851877 c:\users\user\desktop\pallapizza\ui\toppingui.h
+	"Topping.h"
+	"ToppingMake.h"
+	<cstdlib>
+
+1512851855 source:c:\users\user\desktop\pallapizza\ui\pizzaui.cpp
+	"PizzaUI.h"
+
+1512851888 source:c:\users\user\desktop\pallapizza\ui\toppingui.cpp
+	"ToppingUI.h"
+
+1512868649 source:c:\users\user\desktop\pallapizza\ui\typeui.cpp
+	"TypeUI.h"
+	"TypeView.h"
+	"UserInputUI.h"
+
+1512858367 source:c:\users\user\desktop\pallapizza\ui\userinputui.cpp
+	"UserInputUI.h"
+
+1512858547 c:\users\user\desktop\pallapizza\ui\userinputui.h
+	<string>
+	<iostream>
+	<sstream>
+
+1512871481 source:c:\users\user\desktop\pallapizza\read\typeread.cpp
+	"TypeRead.h"
+	"ConstValues.h"
+	"UserInputUI.h"
+
+1512869318 c:\users\user\desktop\pallapizza\read\typeread.h
+	<iostream>
+	<fstream>
+
+1512871596 source:c:\users\user\desktop\pallapizza\view\typeview.cpp
+	"TypeView.h"
+	"ConstValues.h"
+	"TypeRead.h"
+
+1512865242 c:\users\user\desktop\pallapizza\view\typeview.h
+
+1512868989 c:\users\user\desktop\pallapizza\except\invalidtypenamenoalphaexception.h
+
+1512868989 c:\users\user\desktop\pallapizza\except\invalidtypenamealreadytakenexception.h
+
+1512868989 source:c:\users\user\desktop\pallapizza\except\invalidtypenamealreadytakenexception.cpp
+	"InvalidTypeNameAlreadyTakenException.h"
+
+1512868927 source:c:\users\user\desktop\pallapizza\except\invalidtypenamenoalphaexception.cpp
+	"InvalidTypeNameNoAlphaException.h"
+
+1512869955 source:c:\users\user\desktop\pallapizza\edit\typeedit.cpp
+	"TypeEdit.h"
+
+1512870007 c:\users\user\desktop\pallapizza\edit\typeedit.h
+	<iostream>
+	<fstream>
+
+1512871465 c:\users\user\desktop\pallapizza\common\constvalues.h
+
