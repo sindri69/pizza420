@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PallaPizza" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/PallaPizza" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="UI" />
+					<Add directory="BASE" />
+					<Add directory="MAKE" />
+					<Add directory="REPO" />
+					<Add directory="EXCEPT" />
+					<Add directory="READ" />
+					<Add directory="VIEW" />
+					<Add directory="COMMON" />
+					<Add directory="EDIT" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/PallaPizza" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="UI" />
+					<Add directory="BASE" />
+					<Add directory="MAKE" />
+					<Add directory="REPO" />
+					<Add directory="EXCEPT" />
+					<Add directory="READ" />
+					<Add directory="VIEW" />
+					<Add directory="COMMON" />
+					<Add directory="EDIT" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="BASE/Basic.cpp" />
+		<Unit filename="BASE/Basic.h" />
+		<Unit filename="BASE/Drink.cpp" />
+		<Unit filename="BASE/Drink.h" />
+		<Unit filename="BASE/Extra.cpp" />
+		<Unit filename="BASE/Extra.h" />
+		<Unit filename="BASE/Pizza.cpp" />
+		<Unit filename="BASE/Pizza.h" />
+		<Unit filename="BASE/Topping.cpp" />
+		<Unit filename="BASE/Topping.h" />
+		<Unit filename="BASE/Type.cpp" />
+		<Unit filename="BASE/Type.h" />
+		<Unit filename="COMMON/ConstValues.h" />
+		<Unit filename="EDIT/DrinkEdit.cpp" />
+		<Unit filename="EDIT/DrinkEdit.h" />
+		<Unit filename="EDIT/ExtraEdit.cpp" />
+		<Unit filename="EDIT/ExtraEdit.h" />
+		<Unit filename="EDIT/PizzaEdit.cpp" />
+		<Unit filename="EDIT/PizzaEdit.h" />
+		<Unit filename="EDIT/ToppingEdit.cpp" />
+		<Unit filename="EDIT/ToppingEdit.h" />
+		<Unit filename="EDIT/TypeEdit.cpp" />
+		<Unit filename="EDIT/TypeEdit.h" />
+		<Unit filename="EXCEPT/InvalidBasicPriceException.cpp" />
+		<Unit filename="EXCEPT/InvalidBasicPriceException.h" />
+		<Unit filename="EXCEPT/InvalidDrinkNameAlreadyTakenException.cpp" />
+		<Unit filename="EXCEPT/InvalidDrinkNameAlreadyTakenException.h" />
+		<Unit filename="EXCEPT/InvalidDrinkNameNoAlphaException.cpp" />
+		<Unit filename="EXCEPT/InvalidDrinkNameNoAlphaException.h" />
+		<Unit filename="EXCEPT/InvalidDrinkPriceException.cpp" />
+		<Unit filename="EXCEPT/InvalidDrinkPriceException.h" />
+		<Unit filename="EXCEPT/InvalidExtraNameAlreadyTakenException.cpp" />
+		<Unit filename="EXCEPT/InvalidExtraNameAlreadyTakenException.h" />
+		<Unit filename="EXCEPT/InvalidExtraNameNoAlphaException.cpp" />
+		<Unit filename="EXCEPT/InvalidExtraNameNoAlphaException.h" />
+		<Unit filename="EXCEPT/InvalidExtraPriceException.cpp" />
+		<Unit filename="EXCEPT/InvalidExtraPriceException.h" />
+		<Unit filename="EXCEPT/InvalidToppingNameAlreadyTakenException.cpp" />
+		<Unit filename="EXCEPT/InvalidToppingNameAlreadyTakenException.h" />
+		<Unit filename="EXCEPT/InvalidToppingNameNoAlphaException.cpp" />
+		<Unit filename="EXCEPT/InvalidToppingNameNoAlphaException.h" />
+		<Unit filename="EXCEPT/InvalidToppingPriceException.cpp" />
+		<Unit filename="EXCEPT/InvalidToppingPriceException.h" />
+		<Unit filename="EXCEPT/InvalidTypeNameAlreadyTakenException.cpp" />
+		<Unit filename="EXCEPT/InvalidTypeNameAlreadyTakenException.h" />
+		<Unit filename="EXCEPT/InvalidTypeNameBasicIsReservedException.cpp" />
+		<Unit filename="EXCEPT/InvalidTypeNameBasicIsReservedException.h" />
+		<Unit filename="EXCEPT/InvalidTypeNameCustomIsReservedException.cpp" />
+		<Unit filename="EXCEPT/InvalidTypeNameCustomIsReservedException.h" />
+		<Unit filename="EXCEPT/InvalidTypeNameNoAlphaException.cpp" />
+		<Unit filename="EXCEPT/InvalidTypeNameNoAlphaException.h" />
+		<Unit filename="EXCEPT/InvalidTypePriceException.cpp" />
+		<Unit filename="EXCEPT/InvalidTypePriceException.h" />
+		<Unit filename="MAKE/BasicMake.cpp" />
+		<Unit filename="MAKE/BasicMake.h" />
+		<Unit filename="MAKE/DrinkMake.cpp" />
+		<Unit filename="MAKE/DrinkMake.h" />
+		<Unit filename="MAKE/ExtraMake.cpp" />
+		<Unit filename="MAKE/ExtraMake.h" />
+		<Unit filename="MAKE/PizzaMake.cpp" />
+		<Unit filename="MAKE/PizzaMake.h" />
+		<Unit filename="MAKE/ToppingMake.cpp" />
+		<Unit filename="MAKE/ToppingMake.h" />
+		<Unit filename="MAKE/TypeMake.cpp" />
+		<Unit filename="MAKE/TypeMake.h" />
+		<Unit filename="READ/BasicRead.cpp" />
+		<Unit filename="READ/BasicRead.h" />
+		<Unit filename="READ/DrinkRead.cpp" />
+		<Unit filename="READ/DrinkRead.h" />
+		<Unit filename="READ/ExtraRead.cpp" />
+		<Unit filename="READ/ExtraRead.h" />
+		<Unit filename="READ/PizzaRead.cpp" />
+		<Unit filename="READ/PizzaRead.h" />
+		<Unit filename="READ/ToppingRead.cpp" />
+		<Unit filename="READ/ToppingRead.h" />
+		<Unit filename="READ/TypeRead.cpp" />
+		<Unit filename="READ/TypeRead.h" />
+		<Unit filename="REPO/BasicRepository.cpp" />
+		<Unit filename="REPO/BasicRepository.h" />
+		<Unit filename="REPO/DrinkRepository.cpp" />
+		<Unit filename="REPO/DrinkRepository.h" />
+		<Unit filename="REPO/ExtraRepository.cpp" />
+		<Unit filename="REPO/ExtraRepository.h" />
+		<Unit filename="REPO/PizzaRepository.cpp" />
+		<Unit filename="REPO/PizzaRepository.h" />
+		<Unit filename="REPO/ToppingRepository.cpp" />
+		<Unit filename="REPO/ToppingRepository.h" />
+		<Unit filename="REPO/TypeRepository.cpp" />
+		<Unit filename="REPO/TypeRepository.h" />
+		<Unit filename="UI/DrinkUI.cpp" />
+		<Unit filename="UI/DrinkUI.h" />
+		<Unit filename="UI/ExtraUI.cpp" />
+		<Unit filename="UI/ExtraUI.h" />
+		<Unit filename="UI/GetCorrectPizzaUI.cpp" />
+		<Unit filename="UI/GetCorrectPizzaUI.h" />
+		<Unit filename="UI/MainUI.cpp" />
+		<Unit filename="UI/MainUI.h" />
+		<Unit filename="UI/OrderUI.cpp" />
+		<Unit filename="UI/OrderUI.h" />
+		<Unit filename="UI/PaymentUI.cpp" />
+		<Unit filename="UI/PaymentUI.h" />
+		<Unit filename="UI/PizzaUI.cpp" />
+		<Unit filename="UI/PizzaUI.h" />
+		<Unit filename="UI/ToppingUI.cpp" />
+		<Unit filename="UI/ToppingUI.h" />
+		<Unit filename="UI/TypeUI.cpp" />
+		<Unit filename="UI/TypeUI.h" />
+		<Unit filename="UI/UserInputUI.cpp" />
+		<Unit filename="UI/UserInputUI.h" />
+		<Unit filename="VIEW/BasicView.cpp" />
+		<Unit filename="VIEW/BasicView.h" />
+		<Unit filename="VIEW/DrinkView.cpp" />
+		<Unit filename="VIEW/DrinkView.h" />
+		<Unit filename="VIEW/ExtraView.cpp" />
+		<Unit filename="VIEW/ExtraView.h" />
+		<Unit filename="VIEW/PizzaView.cpp" />
+		<Unit filename="VIEW/PizzaView.h" />
+		<Unit filename="VIEW/ToppingView.cpp" />
+		<Unit filename="VIEW/ToppingView.h" />
+		<Unit filename="VIEW/TypeView.cpp" />
+		<Unit filename="VIEW/TypeView.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

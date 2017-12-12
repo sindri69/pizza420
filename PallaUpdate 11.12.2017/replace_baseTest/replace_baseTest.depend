@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512980104 source:c:\users\user\desktop\replace_basetest\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1512999915 source:c:\users\user\desktop\pallaupdate 11.12.2017\replace_basetest\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

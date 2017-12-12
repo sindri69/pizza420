@@ -1,0 +1,12 @@
+Pepperoni
+20
+15
+10
+Pineapple
+5
+4
+3
+Peppers
+7
+6
+5
